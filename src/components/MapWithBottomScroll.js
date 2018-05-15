@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import PropTypes from "prop-types"
 
-export default class MapWithBottomScroll extends Component {
+class MapWithBottomScroll extends Component {
   render() {
     return (
       <div>
@@ -12,5 +12,11 @@ export default class MapWithBottomScroll extends Component {
 }
 
 MapWithBottomScroll.propTypes = {
-  data: PropTypes.array
+  data: PropTypes.arrayOf(PropTypes.shape({
+    lat: PropTypes.number.isRequired,
+    lng: PropTypes.number.isRequired
+  })),
+  gMapsAPIKey: PropTypes.string.isRequired
 }
+
+export default MapWithBottomScroll
