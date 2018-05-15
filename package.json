@@ -1,0 +1,33 @@
+{
+  "name": "react-map-with-bottom-scroll",
+  "version": "0.0.1",
+  "description": "React map with bottom scroll",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatNeedham/react-map-with-bottom-scroll.git"
+  },
+  "keywords": [
+    "map",
+    "scroll",
+    "horizontal-scroll",
+    "react",
+    "google-map"
+  ],
+  "author": "Pat Needham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatNeedham/react-map-with-bottom-scroll/issues"
+  },
+  "homepage": "https://github.com/PatNeedham/react-map-with-bottom-scroll#readme",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-google-maps": "^9.4.5"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}

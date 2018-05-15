@@ -1,0 +1,1 @@
+export { default as MapWithBottomScroll } from "./components/MapWithBottomScroll"
