@@ -1,5 +1,7 @@
 # react-map-with-bottom-scroll
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/PatNeedham/react-map-with-bottom-scroll.svg)](https://greenkeeper.io/)
+
 Goal is to make a web-based version of [this](https://codedaily.io/tutorials/9/Build-a-Map-with-Custom-Animated-Markers-and-Region-Focus-when-Content-is-Scrolled-in-React-Native) in a concise and configurable manner.
 
 Will rely on [`react-google-maps`](https://github.com/tomchentw/react-google-maps) for map implementation.
